@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/jeromeetienne/AR.js.git"
   },
+  "browser": {
+    "fs": false
+  },
   "keywords": [
     "AR",
     "VR",

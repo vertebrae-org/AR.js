@@ -8,7 +8,7 @@ build:
 	cat	src/threex/*.js					\
 		src/new-api/*.js 				\
 		src/markers-area/*.js 				>> build/ar.js
-	echo "export { THREEx };"               >> build/ar.js
+	echo "module.exports = { THREEx: THREEx };" >> build/ar.js
 
 watch: build
 	fswatch -0 src/*/*.js | xargs -0 -n 1 -I {} make build

@@ -5473,4 +5473,4 @@ ARjs.MarkersAreaUtils.buildMarkersAreaFileFromResolution = function(trackingBack
 		parameters.barcodeValue = layout2Barcode[layout]
 	}
 }
-export { THREEx };
+module.exports = { THREEx: THREEx };
